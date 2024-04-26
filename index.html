@@ -31,10 +31,10 @@
     background-color: var(--Tomato);
   }
   .h-500{
-    height: 800px !important;
+    height: 500px !important;
   }
   .h-600{
-    height: 250px !important;
+    height: 150px !important;
   } 
    :root{
     --Mint: #5ACCA4;
@@ -53,6 +53,15 @@
     background-color: var(--AryildeYellow);
     color: var(--white);
     font-size: 40px;
+  }
+  .aryildeYellowSecundary{
+    background-color: #e6cb529c;
+  }
+  .mauveSecundary{
+    background-color: #eaa2fc76;
+  }
+  .tomatoSecundary{
+    background-color: #fe664f9a;
   }
 
   .mauve{
@@ -91,6 +100,17 @@
     color: var(--white);
     font-size: 20px;
   }
+  .btn-outline-light{
+    border-color: var(--Tomato);
+    color: var(--Tomato);
+    font-size: 20px;
+  } 
+  .btn-outline-light:hover{
+    background-color: var(--Tomato);
+    border-color: var(--Tomato);
+    color: var(--white);
+    font-size: 20px;
+  }
     </style>
   </head>
 <body style="background-color: black;" class="d-flex flex-column justify-content-center vw-100 vh-100">
@@ -104,7 +124,7 @@
           <div class="carousel-item active text-center">
             <div class="card h-500 w-100">
               <h5 class="card-header aryildeYellow">Recursos</h5>
-              <div class="card-body background d-flex flex-column  justify-content-center align-items-center">
+              <div class="card-body  aryildeYellowSecundary d-flex flex-column  justify-content-center align-items-center">
                 <div class="row w-75">
                   <div class="col-sm-6 mb-2 mb-sm-0">
                     <div class="card h-600">
@@ -151,7 +171,7 @@
           <div class="carousel-item text-center">
             <div class="card h-500 w-100">
               <h5 class="card-header mauve">Entrenamiento</h5>
-              <div class="card-body background d-flex flex-column justify-content-center align-items-center">
+              <div class="card-body mauveSecundary d-flex flex-column justify-content-center align-items-center">
                 <h5 class="card-title">Forum</h5>
                 <p class="card-text">Present yourself.</p>
                 <a target="_blank" href="https://view.genial.ly/6590bd70265a6900148b2f5d/interactive-content-discussion-cell-phone-addiction" class="btn btn-outline-secundary">Click Here!</a>
@@ -161,10 +181,10 @@
           <div class="carousel-item text-center">
             <div class="card h-500 w-100">
               <h5 class="card-header tomato">Review</h5>
-              <div class="card-body background d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a target="_blank" href="https://view.genial.ly/6590bd70265a6900148b2f5d/interactive-content-discussion-cell-phone-addiction" class="btn btn-outline-primary">Click Here!</a>
+              <div class="card-body tomatoSecundary d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title">Quiz</h5>
+                <p class="card-text">Present perfect quiz</p>
+                <a target="_blank" href="https://view.genial.ly/6590bd70265a6900148b2f5d/interactive-content-discussion-cell-phone-addiction" class="btn btn-outline-light">Click Here!</a>
               </div>
             </div>
           </div>
